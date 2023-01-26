@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="frog_side" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 159.25 454.68">
+  <defs>
+    <style>
+      .solid-shapes {
+        fill: #009245;
+      }
+
+      .mouth {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cheeks {
+        fill: #39b54a;
+      }
+
+      .l_arm {
+        fill: url(#frog-grad-2);
+      }
+
+      .r_arm {
+        fill: url(#frog-grad);
+      }
+    </style>
+    <script>
+        const frogSide = document.querySelector('#frog_side');
+
+        function logFroggoId() {
+          console.log('i made all of these on the Fly');
+        }      
+
+        frogSide.addEventListener('click', logFroggoId);
+    </script>
+    <linearGradient id="frog-grad" x1="188.68" y1="207.93" x2="193.96" y2="163.75" gradientTransform="translate(-95.15 58.22) rotate(-7.42) scale(1.14 .95) skewX(-1.65)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009245"/>
+      <stop offset="1" stop-color="#005f2d"/>
+    </linearGradient>
+    <linearGradient id="frog-grad-2" data-name="frog-grad" x1="-247.76" y1="179.67" x2="-246.48" y2="135.02" gradientTransform="translate(-270.23 13.49) rotate(-171.97) scale(1.25 -.93) skewX(-2.32)" xlink:href="#frog-grad"/>
+  </defs>
+  <g id="frog-side">
+    <path id="legs" class="solid-shapes" d="m69.95,273.84c2.82,52.92-.82,88.08,2,141,3.14,10.49,7.25,39.34,5,37,0,0-36,7-53-1,3-10,12-21.87,19-36,0-46.29-1-94.71-1-141h28Zm24-1c-2.82,53.51-5.64,107.03-8.46,160.54,2.65,4.52,20.46,18.46,20.46,18.46,0,0,32.7-1.71,44.71-18.46-10.9-6.7-21.81-13.4-32.71-20.1v-140.44h-24Z"/>
+    <path id="right-arm" class="r_arm" d="m138.32,151.16l20.94,172.38-31.89,8.02-11.83-196.82h0c11.87-.39,21.59,6.61,22.78,16.41Z"/>
+    <path id="body" class="solid-shapes" d="m116.93,118.44c8.53-1.8,14-5.12,17.12-7.48,17.11-12.93,21.14-39.66,9.14-66.41,0-23.35-2.92-36.84-19.12-42.21-.1-.03-.2-.06-.29-.09-25.11-6.3-37.2,1.95-43.02,17.25-.87,2.28-4.4,2.34-5.34.09C68.87,3.92,55.2-4.06,31.6,2.07c-.2.05-.41.13-.59.22-12.91,6.22-18.82,12.7-18.82,41.77C.07,71.03,4.11,97.97,21.32,110.96c3.48,2.62,9.79,6.41,19.97,8.01-8.04,9.42-13.32,24.85-15.1,39.29l-12,86.43c0,16.89,13.69,30.57,30.57,30.57h69.85c16.89,0,30.57-13.69,30.57-30.57l-11-85.43c-4.04-14.31-9.39-31.04-17.25-40.82Z"/>
+    <path id="left-arm" class="l_arm" d="m19.64,150.8L0,320.93l34.89,8.74,9.28-194.54h0c-12.94-.69-23.41,6-24.52,15.68Z"/>
+    <g id="face">
+      <path id="eyes" d="m53.18,41.26h0c-3.31,0-6-2.69-6-6v-5c0-3.31,2.69-6,6-6h0c3.31,0,6,2.69,6,6v5c0,3.31-2.69,6-6,6Zm73.76-6.42v-5c0-3.31-2.69-6-6-6h0c-3.31,0-6,2.69-6,6v5c0,3.31,2.69,6,6,6h0c3.31,0,6-2.69,6-6Z"/>
+      <line id="mouth" class="mouth" x1="90.18" y1="71.76" x2="106.68" y2="71.76"/>
+      <path id="cheek" class="cheeks" d="m142.22,56.38c2.36,0,4.59.74,6.55,2.03,2.57,11.89,2.4,23.34-.21,32.53-1.91,1.21-4.06,1.89-6.34,1.89-7.88,0-14.27-8.16-14.27-18.23s6.39-18.23,14.27-18.23Zm-67.84,18.61h0c0-10.49-8.51-19-19-19h-3.5c-10.49,0-19,8.51-19,19h0c0,10.49,8.51,19,19,19h3.5c10.49,0,19-8.51,19-19Z"/>
+    </g>
+  </g>
+</svg>

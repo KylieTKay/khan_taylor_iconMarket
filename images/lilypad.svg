@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="lily-pad" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280.67 290.81">
+  <defs>
+    <style>
+      .btm-drkgreen {
+        fill: #009245;
+      }
+
+      .top-lighgreen {
+        fill: #39b54a;
+      }
+
+      .lines {
+        fill: none;
+        stroke: #009245;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <script>
+        const lilypad = document.querySelector('#lily-pad');
+
+        function logFroggoId() {
+          console.log('you say lilypad, i say Toadstool');
+        }      
+
+        lilypad.addEventListener('click', logFroggoId);
+    </script>
+  </defs>
+  <g id="lilypad">
+    <path id="bottom-darkgreen" class="btm-drkgreen" d="m142.19,281.04c0-37.48,0-74.97.01-112.45,0-4.08,4.45-6.59,7.94-4.49,32.92,19.81,65.84,39.61,98.77,59.42,4.68,2.81,10.79,1.27,13.49-3.47,11.63-20.44,18.28-44.09,18.28-69.29,0-77.51-62.83-140.34-140.34-140.34S-.03,74,0,150.76c.03,73.9,58.71,135.34,131.76,140.03,5.64.36,10.42-4.1,10.42-9.75Z"/>
+    <path id="top-lightgreen" class="top-lighgreen" d="m142.19,270.62c0-37.48,0-74.97.01-112.45,0-4.08,4.45-6.59,7.94-4.49,32.92,19.81,65.84,39.61,98.77,59.42,4.68,2.81,10.79,1.27,13.49-3.47,11.63-20.44,18.28-44.09,18.28-69.29C280.67,62.83,217.84,0,140.34,0S-.03,63.57,0,140.34c.03,73.9,58.71,135.34,131.76,140.03,5.64.36,10.42-4.1,10.42-9.75Z"/>
+    <g id="lines">
+      <path class="lines" d="m102.74,128.05l-64.03-39.46m101.25,26.06l.74-91.57m26.06,102.74l77.43-42.44M52.11,209.95l62.54-52.11"/>
+    </g>
+  </g>
+</svg>
