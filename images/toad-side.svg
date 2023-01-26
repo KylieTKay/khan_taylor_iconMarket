@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="toad_side" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 149.76 337.81">
+  <defs>
+    <style>
+      .s_t-body {
+        fill: #009245;
+      }
+
+      .s_t-eyes,.s_t-mouth {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .s_t-cheeks {
+        fill: #39b54a;
+      }
+
+      .s_t-lft-arm {
+        fill: url(#frog-grad-2);
+      }
+
+      .s_t_rght-arm {
+        fill: url(#frog-grad);
+      }
+    </style>
+    <script>
+        const toadSide = document.querySelector('#toad_side');
+
+        function logFroggoId() {
+          console.log('thx for indulging my nonsense. i promise, i am Toad-ally sane');
+        }      
+
+        toadSide.addEventListener('click', logFroggoId);
+    </script>
+    <linearGradient id="frog-grad" x1="138.14" y1="91" x2="138.95" y2="62.59" gradientTransform="translate(1.27 78.11) rotate(-.27) scale(.98 .93) skewX(-.52)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009245"/>
+      <stop offset="1" stop-color="#005f2d"/>
+    </linearGradient>
+    <linearGradient id="frog-grad-2" data-name="frog-grad" x1="-1059.83" y1="192.94" x2="-1059.02" y2="164.64" gradientTransform="translate(-1056.24 -34.93) rotate(179.89) scale(1.01 -1.03) skewX(.23)" xlink:href="#frog-grad"/>
+  </defs>
+  <g id="toad-side">
+    <polygon id="s_t_rght-arm" class="s_t_rght-arm" points="144.78 105.58 148.48 225.39 120.51 227.92 126.99 104.41 144.78 105.58"/>
+    <path id="s_t_body" class="s_t-body" d="m115.98,157.32c8.84-2.35,14.46-6.88,17.65-10.08,17.11-17.16,21.14-52.63,9.14-88.13,0-30.98-2.92-48.89-19.12-56.01-.1-.04-.2-.08-.29-.11-25.11-8.36-37.2,2.59-43.02,22.89-.87,3.03-4.4,3.11-5.34.12C68.45,5.21,54.78-5.39,31.18,2.74c-.2.07-.41.17-.6.29C17.68,11.29,11.77,19.89,11.77,58.46-.35,94.26,3.69,130,20.91,147.24c3.37,3.38,9.42,8.2,19.08,10.42,0,46.08,1,94.25,1,140.31-7,14.13-16,26-19,36,17,8,53,1,53,1,2.25,2.34-1.86-26.51-5-37-2.8-52.48.76-87.52-1.94-139.72h23.82c-2.78,52.75-5.56,105.5-8.34,158.26,2.65,4.52,20.46,18.46,20.46,18.46,0,0,32.7-1.71,44.71-18.46-10.9-6.7-21.81-13.4-32.71-20.1v-139.1Z"/>
+    <path id="s_t-left-arm" class="s_t-lft-arm" d="m4.66,98.75L0,230.98l28.67,2.6-5.23-123.54c-.29-6.96-6.16-12.27-12.96-11.74l-5.83.45Z"/>
+    <g id="s_t-face">
+      <path id="s_t-eyes" d="m59.98,42.98h0c-3.31,0-6-2.69-6-6v-5c0-3.31,2.69-6,6-6h0c3.31,0,6,2.69,6,6v5c0,3.31-2.69,6-6,6Zm66-7v-5c0-3.31-2.69-6-6-6h0c-3.31,0-6,2.69-6,6v5c0,3.31,2.69,6,6,6h0c3.31,0,6-2.69,6-6Z"/>
+      <line id="s_t-mouth" class="s_t-mouth" x1="93.45" y1="80.72" x2="113.68" y2="80.72"/>
+      <path id="s_t-cheeks" class="s_t-cheeks" d="m149.63,94.64c-1.6,1.52-3.53,2.59-5.73,3.06-7.59,1.62-15.36-4.66-17.35-14.01-1.99-9.35,2.55-18.24,10.14-19.86,2.27-.48,4.56-.26,6.71.55,4.82,10.51,6.92,21.19,6.22,30.26Zm-91.65-31.16h-3.5c-10.49,0-19,8.51-19,19h0c0,10.49,8.51,19,19,19h3.5c10.49,0,19-8.51,19-19h0c0-10.49-8.51-19-19-19Z"/>
+    </g>
+  </g>
+</svg>

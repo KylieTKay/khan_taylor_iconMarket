@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="squirrel_side" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 356.84 514">
+  <defs>
+    <style>
+      .s_sq-right-arm {
+        fill: url(#squirrel-drkgrad);
+      }
+
+      .s_sq-in-ear {
+        fill: #c7b299;
+      }
+
+      .s_sq-solids {
+        fill: #a67c52;
+      }
+
+      .s_sq-nose {
+        fill: #42210b;
+      }
+
+      .s_sq-left-arm {
+        fill: url(#squirrel-drkgrad-2);
+      }
+
+      .s_sq-right-leg {
+        fill: url(#squirrel-lghtgrad);
+      }
+
+      .s_sq-tail {
+        fill: #754c24;
+      }
+    </style>
+    <script>
+        const squirrelSide = document.querySelector('#squirrel_side');
+
+        function logSquirrelyId() {
+          console.log('hot Squirrel summer');
+        }      
+
+        squirrelSide.addEventListener('click', logSquirrelyId);
+    </script>
+    <linearGradient id="squirrel-drkgrad" x1="-2619.49" y1="810.4" x2="-2618.38" y2="771.65" gradientTransform="translate(5037.57 -2952.5) rotate(-27.88) scale(2.13 .87) skewX(-4.32)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a67c52"/>
+      <stop offset="1" stop-color="#8c6239"/>
+    </linearGradient>
+    <linearGradient id="squirrel-lghtgrad" x1="273.21" y1="411.64" x2="331.9" y2="417.73" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9b7147"/>
+      <stop offset=".04" stop-color="#9c7248"/>
+      <stop offset=".33" stop-color="#a3794f"/>
+      <stop offset="1" stop-color="#a67c52"/>
+    </linearGradient>
+    <linearGradient id="squirrel-drkgrad-2" data-name="squirrel-drkgrad" x1="-3530.04" y1="-202.35" x2="-3528.93" y2="-241.1" gradientTransform="translate(-6725.87 -2504.3) rotate(-156.09) scale(2.13 -.93) skewX(-4.19)" xlink:href="#squirrel-drkgrad"/>
+  </defs>
+  <g id="squirrel-side">
+    <path id="s_sq-tail" class="s_sq-tail" d="m213.82.98c-1.35-.62-2.85-.98-4.43-.98h-101.15C48.46,0,0,48.46,0,108.24h0c0,54.54,44.21,98.76,98.76,98.76h11.24v63.5c0,49.98,40.52,90.5,90.5,90.5h0c49.98,0,90.5-40.52,90.5-90.5V90.5c0-45.45-33.51-83.08-77.18-89.52Z"/>
+    <path id="s_sq-right-arm" class="s_sq-right-arm" d="m311.87,215.52l44.08,118.43c3.17,8.53-2.37,19.61-13.05,26.08h0c-13.99,8.47-30.21,5.33-33.06-6.41l-33.28-137.07h0c17.42-8.17,32.49-8.6,35.31-1.03Z"/>
+    <g id="s_sq-legs">
+      <path id="s_sq-right-leg" class="s_sq-right-leg" d="m259,322v7h6v162.34c0,1.91-.24,3.76-.68,5.53,4.72,6.16,12.14,10.13,20.5,10.13h10.52c12.51,0,22.66-10.15,22.66-22.66v-162.34h-59Z"/>
+      <path id="s_sq-left-leg" class="s_sq-solids" d="m265,329h-59v159.18c0,14.26,11.56,25.82,25.82,25.82h10.52c10.61,0,19.51-7.29,21.98-17.13.44-1.77.68-3.62.68-5.53v-162.34Z"/>
+    </g>
+    <path id="s_sq-body" class="s_sq-solids" d="m316.2,52.96h0c-10.36-5.98-23.61-2.43-29.59,7.93l-5.47,9.48c-7.38-2.82-15.39-4.38-23.76-4.38h0c-6.18,0-12.15.87-17.82,2.46l-4.36-7.55c-5.98-10.36-19.23-13.91-29.59-7.93h0c-10.21,5.89-13.7,18.94-7.81,29.15l6.32,10.95c-7.97,10.9-12.68,24.33-12.68,38.86v12.15c0,22.18,13.85,41.11,33.36,48.66-11.13,7.93-18.42,26.91-20.59,44.42l-12,86.43c0,16.89,13.69,30.57,30.57,30.57h69.85c16.89,0,30.57-13.69,30.57-30.57l-10.05-78.03c-.67-5.18-1.74-10.3-3.26-15.29-4.53-14.8-10.56-30.32-19.29-37.35,19.49-7.38,33.35-26.21,33.35-48.28v-12.04c0-12.47-3.43-24.13-9.4-34.1l9.44-16.35c5.89-10.21,2.4-23.26-7.81-29.15Z"/>
+    <g id="s_sq-face">
+      <path id="s_sq-eyes" d="m240.78,136.65h-2.37c-2.96,0-5.35-2.4-5.35-5.35v-12.12c0-2.96,2.4-5.35,5.35-5.35h2.37c2.96,0,5.35,2.4,5.35,5.35v12.12c0,2.96-2.4,5.35-5.35,5.35Zm72.39-5.35v-12.12c0-2.96-2.4-5.35-5.35-5.35h-2.37c-2.96,0-5.35,2.4-5.35,5.35v12.12c0,2.96,2.4,5.35,5.35,5.35h2.37c2.96,0,5.35-2.4,5.35-5.35Z"/>
+      <path id="s_sq-nose" class="s_sq-nose" d="m274.69,144.31h0c-.66-.82-.26-2.17.65-2.19,4.08-.1,8.15-.2,12.23-.3.96-.02,1.5,1.42.84,2.24l-.55.68c-3.54,4.36-9.43,4.17-13.16-.43Z"/>
+      <path id="s_sq-in-ear" class="s_sq-in-ear" d="m218.47,85.09l-3-5.91c-2.72-5.37-.84-12.35,4.21-15.58h0c4.39-2.81,9.86-1.3,12.23,3.37l1.94,3.84c1.52,3.01.47,6.92-2.36,8.73l-10,6.4c-1.09.7-2.44.32-3.03-.83Zm97.84,0l3-5.91c2.72-5.37.84-12.35-4.21-15.58h0c-4.39-2.81-9.86-1.3-12.23,3.37l-1.94,3.84c-1.52,3.01-.47,6.92,2.36,8.73l10,6.4c1.09.7,2.44.32,3.03-.83Z"/>
+    </g>
+    <path id="s_sq-left-arm" class="s_sq-left-arm" d="m197.97,220.72l-39.92,128.91c-2.88,9.29,3.19,20.4,14.26,26.16h0c14.51,7.54,30.82,2.64,33.24-9.99l28.23-147.46h0c-17.98-6.88-33.26-5.86-35.82,2.38Z"/>
+  </g>
+</svg>

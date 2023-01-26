@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="lily-pad_side" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 281 426.79">
+  <defs>
+    <style>
+      .btm-drkgreen {
+        fill: #009245;
+      }
+
+      .root {
+        fill: url(#lilypad-grad);
+      }
+
+      .top-lighgreen {
+        fill: #39b54a;
+      }
+
+      .lines {
+        fill: none;
+        stroke: #009245;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <script>
+        const lilypadSide = document.querySelector('#lily-pad_side');
+
+        function logFroggoId() {
+          console.log('it is better not to Pond-er on these too long');
+        }      
+
+        lilypadSide.addEventListener('click', logFroggoId);
+    </script>
+    <linearGradient id="lilypad-grad" x1="141" y1="68.32" x2="141" y2="426.79" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#003637"/>
+      <stop offset=".04" stop-color="#0a543a"/>
+      <stop offset=".09" stop-color="#16773e"/>
+      <stop offset=".15" stop-color="#219542"/>
+      <stop offset=".21" stop-color="#2aae45"/>
+      <stop offset=".28" stop-color="#30c147"/>
+      <stop offset=".36" stop-color="#35ce48"/>
+      <stop offset=".47" stop-color="#38d649"/>
+      <stop offset=".67" stop-color="#39d94a"/>
+    </linearGradient>
+  </defs>
+  <g id="lilypad_side">
+    <path id="root" class="root" d="m156.83,70.87s52.42,35.3,0,46.49c-52.42,11.19-64.35,14.82-64.26,28.95s89.32-5.15,100.99,5.91c11.66,11.06-14.65,34.57-50.49,34.87-35.85.3-47.58,8.94-46.47,15.96s42.22,6.88,51.06,23.25c8.85,16.38-14.77,15.56-18.36,34.4-3.59,18.84,20.77,19.87,27.35,44.16,6.58,24.3-31.47,40.24-19.45,68.78s-1.98,50.51-1.98,50.51l-.06,2.61s13.45-22.8.73-51.21c-12.72-28.4,24.91-46.06,17.74-70.4-7.17-24.33-31.55-24.4-28.43-43.61,3.13-19.21,26.75-19.33,17.5-35.55-9.25-16.22-50.33-14.43-51.61-21.49-1.28-7.06,10.24-16.28,46.06-18.02,35.82-1.73,61.54-26.59,49.61-37.31-11.93-10.73-100.65,12.36-101.08-1.94-.44-14.3,11.4-18.46,63.52-31.88,52.12-13.42-1.15-47.05-1.15-47.05"/>
+    <g id="pad-top">
+      <path id="bottom-darkgreen" class="btm-drkgreen" d="m280.17,67.43c0,7.62-3.85,14.3-6.56,18.05-1.44,1.99-3.9,2.98-6.32,2.54-21.17-3.85-125.59-22.64-127.13-19.19-1.1,2.47,39.06,27.91,62.52,42.5,5.23,3.25,3.28,11.29-2.86,11.8-16.78,1.37-41.24,3.21-59.67,3.95C88.33,129.14-4.41,108.29.16,67.43,3.83,34.69,62.85,7.78,140.17,7.78s140.01,26.7,140.01,59.64Z"/>
+      <path id="top-lightgreen" class="top-lighgreen" d="m281,58.78c0,7.51-3.85,14.09-6.56,17.79-1.44,1.97-3.9,2.93-6.32,2.5-21.17-3.79-125.59-22.32-127.13-18.91-1.1,2.44,39.06,27.5,62.52,41.88,5.23,3.21,3.28,11.13-2.86,11.63-16.78,1.35-41.24,3.17-59.67,3.89C89.16,119.61-3.59,99.06.99,58.78,4.65,26.52,63.67,0,140.99,0s140.01,26.32,140.01,58.78Z"/>
+      <g id="lines">
+        <path class="lines" d="m121.63,64.12l-39.64,32.2M22.54,52.56l84.23,4.13m12.39-14.86l-24.77-27.25m109.83,5.78l-56.15,25.6"/>
+      </g>
+    </g>
+  </g>
+</svg>
